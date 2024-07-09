@@ -339,7 +339,7 @@ def RESTART_SCRIPT(RESTART_SCRIPT_NAME):
 def CHECK():
     global CHERWIN_SCRIPT_CONFIG
     print('>>>>>>>开始获取版本信息...')
-    baseurl = 'https://github.com/CHERWING/CHERWIN_SCRIPTS/raw/main/'
+    baseurl = 'https://py.cherwin.cn/'
     TOOLS_NAME = 'CHERWIN_TOOLS.py'
     server_script_url = f'https://github.com/CHERWING/CHERWIN_SCRIPTS/raw/main/{TOOLS_NAME}'
     try:
